@@ -10,7 +10,6 @@ import net.minecraft.world.level.block.state.BlockState;
 
 public class NuclearWasteBlock extends Block {
     private static final float RADIATION_PER_TICK = 0.5f;
-    private static final int RADIUS = 3;
 
     public NuclearWasteBlock(Properties properties) {
         super(properties);

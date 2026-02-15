@@ -20,7 +20,6 @@ public class RadAwayItem extends Item {
         ItemStack stack = player.getItemInHand(hand);
         
         if (!level.isClientSide && player instanceof ServerPlayer serverPlayer) {
-            float currentRads = RadiationManager.getRadiation(serverPlayer);
             float reduction = 25.0f;
             RadiationManager.addRadiation(serverPlayer, -reduction);
             
