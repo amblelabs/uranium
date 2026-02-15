@@ -1,6 +1,5 @@
 package dev.amblelabs.item.weapon;
 
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 
