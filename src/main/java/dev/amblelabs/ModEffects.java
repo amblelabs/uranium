@@ -6,10 +6,10 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.effect.MobEffect;
 
 public class ModEffects {
-    public static final MobEffect RADIATION = new RadiationEffect();
+    public static MobEffect RADIATION;
 
     public static void register() {
-        Registry.register(BuiltInRegistries.MOB_EFFECT, Uranium.of("radiation"), RADIATION);
+        RADIATION = Registry.register(BuiltInRegistries.MOB_EFFECT, Uranium.of("radiation"), new RadiationEffect());
         Uranium.LOGGER.info("Registered mod effects");
     }
 }

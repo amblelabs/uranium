@@ -22,11 +22,11 @@ public class Uranium implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("War. War never changes.");
 		
-		// Register everything
+		// Register in the correct order to avoid initialization issues
 		ModEffects.register();
 		ModBlocks.register();
-		ModItems.register();
 		ModEntities.register();
+		ModItems.register();  // Items must be after blocks and entities
 		ModItemGroups.register();
 		
 		// Register tick events for radiation and power armor
