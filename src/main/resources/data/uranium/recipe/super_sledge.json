@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DSD",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "uranium:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "uranium:super_sledge",
+    "count": 1
+  }
+}

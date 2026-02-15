@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "uranium:block/vault_door"
+    },
+    "facing=south": {
+      "model": "uranium:block/vault_door",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "uranium:block/vault_door",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "uranium:block/vault_door",
+      "y": 90
+    }
+  }
+}

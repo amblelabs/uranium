@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "uranium:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "uranium:vault_door",
+    "count": 1
+  }
+}

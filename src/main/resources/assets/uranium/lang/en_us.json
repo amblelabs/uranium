@@ -1,0 +1,31 @@
+{
+  "itemGroup.uranium.uranium": "Uranium",
+  
+  "item.uranium.uranium_ingot": "Uranium Ingot",
+  "item.uranium.steel_ingot": "Steel Ingot",
+  "item.uranium.ammo": "Ammunition",
+  "item.uranium.fusion_cell": "Fusion Cell",
+  "item.uranium.radaway": "RadAway",
+  "item.uranium.geiger_counter": "Geiger Counter",
+  
+  "item.uranium.combat_knife": "Combat Knife",
+  "item.uranium.baseball_bat": "Baseball Bat",
+  "item.uranium.super_sledge": "Super Sledge",
+  "item.uranium.pipe_pistol": "Pipe Pistol",
+  "item.uranium.laser_rifle": "Laser Rifle",
+  
+  "item.uranium.power_armor_spawn_egg": "Power Armor Spawn Egg",
+  "item.uranium.ghoul_spawn_egg": "Ghoul Spawn Egg",
+  
+  "block.uranium.vault_steel_block": "Vault Steel Block",
+  "block.uranium.vault_door": "Vault Door",
+  "block.uranium.nuclear_waste": "Nuclear Waste",
+  "block.uranium.uranium_ore": "Uranium Ore",
+  
+  "entity.uranium.power_armor": "Power Armor",
+  "entity.uranium.ghoul": "Ghoul",
+  "entity.uranium.bullet": "Bullet",
+  "entity.uranium.laser": "Laser",
+  
+  "effect.uranium.radiation": "Radiation"
+}

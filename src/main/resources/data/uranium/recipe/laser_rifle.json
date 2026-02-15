@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "UGU",
+    " SU",
+    "  S"
+  ],
+  "key": {
+    "U": {
+      "item": "uranium:uranium_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "S": {
+      "item": "uranium:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "uranium:laser_rifle",
+    "count": 1
+  }
+}
