@@ -1,7 +1,22 @@
+buildscript {
+	repositories {
+		maven {
+			name = 'Fabric'
+			url = 'https://maven.fabricmc.net/'
+		}
+		mavenCentral()
+		gradlePluginPortal()
+	}
+	dependencies {
+		classpath "net.fabricmc:fabric-loom:${loom_version}"
+	}
+}
+
 plugins {
-	id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
 	id 'maven-publish'
 }
+
+apply plugin: 'net.fabricmc.loom'
 
 version = project.mod_version
 group = project.maven_group
@@ -16,6 +31,11 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
+	maven {
+		name = 'Fabric'
+		url = 'https://maven.fabricmc.net/'
+	}
+	mavenCentral()
 }
 
 fabricApi {
