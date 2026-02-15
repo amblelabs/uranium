@@ -18,6 +18,9 @@
 		"main": [
 			"dev.amblelabs.Uranium"
 		],
+		"client": [
+			"dev.amblelabs.client.UraniumClient"
+		],
 		"fabric-datagen": [
 			"dev.amblelabs.UraniumDataGenerator"
 		]

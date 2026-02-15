@@ -1,5 +1,6 @@
 package dev.amblelabs;
 
+import dev.amblelabs.core.UraniumItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -18,5 +19,6 @@ public class Uranium implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("War. War never changes.");
+		UraniumItems.init();
 	}
 }
