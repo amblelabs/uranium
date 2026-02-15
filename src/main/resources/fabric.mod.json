@@ -3,13 +3,12 @@
 	"id": "uranium",
 	"version": "${version}",
 	"name": "Uranium",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Uranium brings the Fallout wasteland to Minecraft — featuring Power Armor, radiation, ghouls, wasteland weapons, and vault building.",
 	"authors": [
-		"Me!"
+		"AmbleLabs"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/AmbleLabs/uranium"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/uranium/icon.png",
